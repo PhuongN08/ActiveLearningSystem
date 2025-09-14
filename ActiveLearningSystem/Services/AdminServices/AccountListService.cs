@@ -75,7 +75,7 @@ namespace ActiveLearningSystem.Services.AdminServices
 
             return profile != null ? _mapper.Map<AccountDetailsVM>(profile) : null;
         }
-
+        //update
         public void CreateAccountByAdmin(CreateAccount model)
         {
             var validRoles = new[] { "Manager", "Marketer", "Finance Manager", "Instructor" };
